@@ -1,6 +1,6 @@
 # PhoenixTeamAyY-zeyiRotaOptimizasyonu
 Ay Yuzeyi Guvenli Rota Planlayici (LRO LOLA Pathfinding)
-Bu proje, NASA'nın LRO (Lunar Reconnaissance Orbiter) verilerini temel alarak Ay yuzeyindeki egim haritalari uzerinde en guvenli ve dusuk maliyetli rotayi hesaplayan bir A* (A-Star) algoritmasi uygulamasidir. Yazilim, tehlikeli bolgelerden kacinan bir navigasyon simulasyonu sunar.
+Bu proje, NASA'nın LRO LOLA Slope 16ppd, Colorized(Lunar Reconnaissance Orbiter) verilerini temel alarak Ay yuzeyindeki egim haritalari uzerinde en guvenli ve dusuk maliyetli rotayi hesaplayan bir A* (A-Star) algoritmasi uygulamasidir. Yazilim, tehlikeli bolgelerden kacinan bir navigasyon simulasyonu sunar.
 
 Proje Hakkinda
 Kod, LRO_LOLA_ClrSlope_Global_16ppd.tif adli topografik egim haritasini analiz eder. Belirlenen HSV (Renk, Doygunluk, Parlaklik) degerlerine gore yuzeyi "Guvenli" ve "Tehlikeli" olarak siniflandirir.
@@ -17,6 +17,8 @@ Gorsellestirme: Hesaplanan rotanin orijinal harita uzerinde cizilerek ay_sonuc.p
 Teknik Detaylar
 Renk ve Risk Siniflandirmasi
 Algoritma, haritadaki renk tonlarina gore asagidaki risk degerlendirmesini yapar:
+![moon_surface_heatmap](https://github.com/user-attachments/assets/681eae6b-c965-4fd1-b289-0eaa4c4a8627) ![moon_surface_noheatmap](https://github.com/user-attachments/assets/33e66853-95aa-4151-a8d5-dd3ec89696f5)
+
 
 Sari-Turuncu: Guvenli Bolge (Maliyet: 1).
 
